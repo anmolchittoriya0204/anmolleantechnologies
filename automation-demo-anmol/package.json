@@ -1,0 +1,22 @@
+{
+  "name": "automation-demo-anmol",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automated checkout flow for Sauce Demo using Playwright + JavaScript",
+  "type": "module",
+  "scripts": {
+    "install:pw": "playwright install --with-deps",
+    "test": "playwright test",
+    "test:headed": "HEADLESS=false playwright test",
+    "report": "playwright show-report",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "eslint": "^9.7.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^17.9.0",
+    "eslint-plugin-promise": "^7.1.0"
+  }
+}
